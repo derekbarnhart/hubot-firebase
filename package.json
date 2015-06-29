@@ -1,0 +1,33 @@
+{
+  "name": "hubot-firebase",
+  "version": "1.0.0",
+
+  "description": "A hubot adapter for firebase",
+  "main": "./src/firebase.coffee",
+  "keywords":[
+    "hubot",
+    "firebase",
+    "chat",
+    "bot"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "firebase": "^2.2.7",
+    "lodash": "^3.9.3",
+    "parent-require": "^1.0.0",
+    "q": "^1.4.1"
+  },
+  "peerDependencies": {
+    "hubot": ">=2.0"
+  },
+  "devDependencies": {
+    "coffee-script": ">=1.2.0"
+  },
+    "engines": {
+    "node" : "~0.12.2"
+  },
+  "author": "Derek Barnhart <derekbarnhart@gmail.com>",
+  "license": "MIT"
+}
